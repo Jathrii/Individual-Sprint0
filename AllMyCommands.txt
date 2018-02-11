@@ -1,0 +1,38 @@
+git init
+
+git add section1_1.md
+git add section3_1.md
+git add section5_1.md
+
+rm section3_1.md
+
+git checkout section3_1.md
+
+git commit -m 'feat: Added the 3 files described in the sprint
+Added 3 files containing sections 1.1, 3.1 & 5.1 from the Pro Git book by Scott Chacon and Ben Straub'
+
+git remote add origin https://github.com/OmarOES/Individual-Sprint0.git
+git push -u origin master
+
+touch README.md
+
+git branch ReadMe
+
+git checkout ReadMe
+git add README.md
+
+git commit -m 'feat: Added README.md
+Added a README.md file containing the elements mentioned in the sprint'
+
+git push
+
+git checkout master
+
+git merge ReadMe
+
+git push
+
+git add AllMyCommands.txt
+git commit -m 'feat: Added AllMyCommands.txt
+Added the AllMyCommands.txt files containing all commands used in the sprint including the commands for adding this file'
+git push
