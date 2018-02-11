@@ -36,3 +36,8 @@ git add AllMyCommands.txt
 git commit -m 'feat: Added AllMyCommands.txt
 Added the AllMyCommands.txt files containing all commands used in the sprint including the commands for adding this file'
 git push
+
+git add README.md
+git add AllMyCommands.txt
+git commit -m 'fix: Grammatical error in line 5'
+git push
